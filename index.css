@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.score {
+    background-color: black;
+    color: #F94F6D;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.reset-container {
+    text-align: center;
+    margin-top: 30px;
+}

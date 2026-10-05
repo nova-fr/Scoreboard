@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- HOME -->
+            <div class="home">
+                <h3>HOME</h3>
+
+                <div id="home-score" class="score">
+                    0
+                </div>
+
+                <div class="buttons">
+                    <!--<button onclick="increment()">+1</button>  
+                    This is the logic for incrementing +1 only
+                    --> 
+                    <button onclick="increment(1)">+1</button>
+                    <button onclick="increment(2)">+2</button>
+                    <button onclick="increment(3)">+3</button>
+                </div>
+            </div>
+
+
+            <!-- GUEST -->
+            <div class="guest">
+                <h3>GUEST</h3>
+
+                <div id="guest-score" class="score">
+                    0
+                </div>
+
+                <div class="buttons">
+                    <button onclick="incrementGuest(1)">+1</button>
+                    <button onclick="incrementGuest(2)">+2</button>
+                    <button onclick="incrementGuest(3)">+3</button>
+                    <!-- baisc first structure of html
+                    <button>+1</button>
+                    <button>+2</button>
+                    <button>+3</button>
+                -->
+                </div>
+            </div>
+              <!-- RESET 
+            <button onclick="reset()">RESET</button> -->
+         </div>
+         
+             <div class="reset-container">
+                 <button onclick="reset()">RESET</button>
+            </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
